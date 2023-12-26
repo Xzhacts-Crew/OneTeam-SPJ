@@ -44,9 +44,11 @@ Ubuntu 22.04
 
 ## Step Pengerjaan #
 1.** Install Apache2 **
+
 sudo apt install apache2
 
 2.** Mod Security **
+
 sudo apt install libapache2-mod-security2
 
 sudo apt install libapache2-mod-security2
@@ -59,6 +61,7 @@ SecRuleEngine On
 sudo systemctl restart apache2
 
 3.** Cockpit **
+
 Apt-get install cockpit
 
 Sudo ufw allow 9090/tcp
@@ -68,6 +71,7 @@ Sudo systemctl enable cockpit
 Sudo systemctl start cockpit
 
 4.**  Snort **
+
 sudo apt update
 
 sudo apt install snort
@@ -80,6 +84,7 @@ sudo systemctl status snort
 
 
 5.** Firewall **
+
 sudo apt update
 
 sudo apt install ufw
@@ -91,6 +96,12 @@ sudo ufw default allow outgoing
 sudo ufw allow 22  # SSH
 
 sudo ufw allow 80  # HTTP
+
+## Dokumentasi ##
+![IMG-20231226-WA0001](https://github.com/Xzhacts-Crew/OneTeam-SPJ/assets/148695999/4fa8a0b2-537b-43dd-af64-5c1bb32bb895)
+![IMG-20231226-WA0002](https://github.com/Xzhacts-Crew/OneTeam-SPJ/assets/148695999/f6227751-f4c1-4213-8f27-6e117d3fecbe)
+
+
 
 
 
