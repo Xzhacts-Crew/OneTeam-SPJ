@@ -48,32 +48,48 @@ sudo apt install apache2
 
 2.** Mod Security **
 sudo apt install libapache2-mod-security2
+
 sudo apt install libapache2-mod-security2
+
 sudo nano /etc/modsecurity/modsecurity.conf
+
 root@user#SecRuleEngine DetectionOnly 
 SecRuleEngine On
+
 sudo systemctl restart apache2
 
 3.** Cockpit **
 Apt-get install cockpit
+
 Sudo ufw allow 9090/tcp
+
 Sudo systemctl enable cockpit
+
 Sudo systemctl start cockpit
 
 4.**  Snort **
 sudo apt update
+
 sudo apt install snort
+
 sudo systemctl start snort
+
 sudo systemctl enable snort
+
 sudo systemctl status snort
 
 
 5.** Firewall **
 sudo apt update
+
 sudo apt install ufw
+
 sudo ufw default deny incoming
+
 sudo ufw default allow outgoing
+
 sudo ufw allow 22  # SSH
+
 sudo ufw allow 80  # HTTP
 
 
