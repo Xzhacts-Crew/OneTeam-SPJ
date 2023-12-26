@@ -33,7 +33,6 @@ Ubuntu 22.04
 
 user@WebServer: sudo apt update && upgrade
 
-#
 
 - Dilanjut untuk install Apache2 serta cek status apache
 
