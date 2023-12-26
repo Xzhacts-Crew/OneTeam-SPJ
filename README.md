@@ -1,3 +1,11 @@
+## Kelompok 1 ##
+# Nama Anggota & Nim #
+Khent Harianto Sandang (22.83.0834)
+Dian Andrian (22.83.0881)
+Riki Nur Indra Putra ( 22.83.0875)
+Aditya Rosprihananta ( 2283.0843)
+Muhammad Ahnaf Maajid (22.83.0884)
+Alvin Rizky Saputra (22.83.0867)
 #  Keamanan Web Server #
 Tugas yang di buat pada final project kali ini adalah Keamanan Web Server
 ![spj](https://github.com/Xzhacts-Crew/OneTeam-SPJ/assets/148695999/1556cfa9-141a-4366-b6d6-f8fceae24c4f)
@@ -27,44 +35,6 @@ Ubuntu 22.04
 5. Snort
 6. Cockpit
 ***
-## Panduan Instalasi ##
-
-- Install Git terlebih dahulu
-
-user@WebServer: sudo apt update && upgrade
-
-
-- Dilanjut untuk install Apache2 serta cek status apache
-
-
-user@WebServer: sudo apt install Apache2
-user@WebServer: sudo systemctl status Apache
-
-
-
-- Mod Security
-
-
-user@WebServer: sudo apt install libapache2-mod-security2
-user@WebServer: sudo a2enmod security2
-user@WebServer: sudo nano /etc/modsecurity/modsecurity.conf
-root@user: #SecRuleEngine DetectionOnly 
-SecRuleEngine On
-
-
-
-- Tambahkan Rule untuk Apache di Firewall
-
-
-user@WebServer: sudo ufw allow 'Apache'
-user@WebServer: sudo ufw status
-
-
-
-- Install Mysql
-
-user@WebServer: sudo apt install mysql-server
-user@WebServer: sudo mysqk_secure_installation
 
 
 ## Step Pengerjaan #
@@ -75,7 +45,7 @@ sudo apt install apache2
 sudo apt install libapache2-mod-security2
 sudo apt install libapache2-mod-security2
 sudo nano /etc/modsecurity/modsecurity.conf
-#SecRuleEngine DetectionOnly 
+root@user#SecRuleEngine DetectionOnly 
 SecRuleEngine On
 sudo systemctl restart apache2
 
@@ -85,40 +55,24 @@ Sudo ufw allow 9090/tcp
 Sudo systemctl enable cockpit
 Sudo systemctl start cockpit
 
-4.**  Ubah pemilik folder **
-sudo chown -R www-data:www-data /var/www/html
+4.**  Snort **
+sudo apt update
+sudo apt install snort
+sudo systemctl start snort
+sudo systemctl enable snort
+sudo systemctl status snort
 
-5.** Beri ijin anggota grup untuk merubah folder **
-sudo chmod -R g+rw /var/www/html
 
-6.** Tambahkan user name kita **
-sudo usermod -a -G www-data
+5.** Firewall **
+sudo apt update
+sudo apt install ufw
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw allow 22  # SSH
+sudo ufw allow 80  # HTTP
 
-7.** Restart ubuntu **
 
-8.** Tambahkan rule untuk apache difirewall **
-sudo ufw allow 'Apache'
 
-9.** Cek status firewall **
-sudo ufw status
-
-10.** Install ssh **
-sudo apt install openssh-server
-
-11.** Install ngrok **
-snap install ngrok
-
-12.** Masukkan token authtoken **
-ngrok config add-authtoken 2ZlR0DFXPuzK2a1nMQY6ONP1FLn_4oDZYTuGDNHW3jJPJHT5R
-
-13.** Masuk cmd ketikkan **
-ssh "username"@"ip ubuntu"
-
-14.** http 80 untuk mendapatkan url ***
-ngrok http 80
-
-15.** Untuk mengedit index.html **
-masuk folder /var/www/html open menggunakan texteditor 
 
 
 
