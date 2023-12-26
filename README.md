@@ -1,11 +1,11 @@
 ## Kelompok 1 ##
 # Nama Anggota & Nim #
-Khent Harianto Sandang (22.83.0834)
-Dian Andrian (22.83.0881)
-Riki Nur Indra Putra ( 22.83.0875)
-Aditya Rosprihananta ( 2283.0843)
-Muhammad Ahnaf Maajid (22.83.0884)
-Alvin Rizky Saputra (22.83.0867)
+-Khent Harianto Sandang (22.83.0834)
+-Dian Andrian (22.83.0881)
+-Riki Nur Indra Putra ( 22.83.0875)
+-Aditya Rosprihananta ( 2283.0843)
+-Muhammad Ahnaf Maajid (22.83.0884)
+-Alvin Rizky Saputra (22.83.0867)
 #  Keamanan Web Server #
 Tugas yang di buat pada final project kali ini adalah Keamanan Web Server
 ![spj](https://github.com/Xzhacts-Crew/OneTeam-SPJ/assets/148695999/1556cfa9-141a-4366-b6d6-f8fceae24c4f)
