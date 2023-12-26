@@ -99,7 +99,18 @@ sudo ufw allow 80  # HTTP
 
 ## Dokumentasi ##
 ![IMG-20231226-WA0001](https://github.com/Xzhacts-Crew/OneTeam-SPJ/assets/148695999/4fa8a0b2-537b-43dd-af64-5c1bb32bb895)
-![IMG-20231226-WA0002](https://github.com/Xzhacts-Crew/OneTeam-SPJ/assets/148695999/f6227751-f4c1-4213-8f27-6e117d3fecbe)
+![IMG-20231226-WA0002](https://github.com/Xzhacts-Crew/OneTeam-SPJ/assets/148695999/f2e721e1-9627-4800-8747-010d1a55e94a)
+![IMG-20231226-WA0003](https://github.com/Xzhacts-Crew/OneTeam-SPJ/assets/148695999/5db547a4-769c-47da-85f8-44db3febbff7)
+![IMG-20231226-WA0004](https://github.com/Xzhacts-Crew/OneTeam-SPJ/assets/148695999/f0ec050a-c590-4396-84eb-ff61f3faf63b)
+![IMG-20231226-WA0005](https://github.com/Xzhacts-Crew/OneTeam-SPJ/assets/148695999/df5c6916-1ac8-4b9d-9f34-dd64a1ad3e2b)
+![IMG-20231226-WA0006](https://github.com/Xzhacts-Crew/OneTeam-SPJ/assets/148695999/cf7c20ea-3371-47d4-b3f4-c40fdef231dd)
+![IMG-20231226-WA0007](https://github.com/Xzhacts-Crew/OneTeam-SPJ/assets/148695999/1cd5c81f-fcde-4828-b98a-848c0c1b5009)
+![IMG-20231226-WA0008](https://github.com/Xzhacts-Crew/OneTeam-SPJ/assets/148695999/2cfa80c4-c827-488b-a9ea-663426e21860)
+![IMG-20231226-WA0009](https://github.com/Xzhacts-Crew/OneTeam-SPJ/assets/148695999/f083f616-daa9-4e38-a59c-cea94e7029f3)
+![IMG-20231226-WA0010](https://github.com/Xzhacts-Crew/OneTeam-SPJ/assets/148695999/f33bd5fc-65eb-41b1-8426-adc207a07871)
+
+## SEKIAN DAN TERIMAKASIH ##
+
 
 
 
