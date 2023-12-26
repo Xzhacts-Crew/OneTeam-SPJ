@@ -27,13 +27,54 @@ Ubuntu 22.04
 5. Snort
 6. Cockpit
 ***
+## Panduan Instalasi ##
+
+- Install Git terlebih dahulu
+
+user@WebServer: sudo apt update && upgrade
+
+#
+
+- Dilanjut untuk install Apache2 serta cek status apache
+
+
+user@WebServer: sudo apt install Apache2
+user@WebServer: sudo systemctl status Apache
+
+
+
+- Mod Security
+
+
+user@WebServer: sudo apt install libapache2-mod-security2
+user@WebServer: sudo a2enmod security2
+user@WebServer: sudo nano /etc/modsecurity/modsecurity.conf
+root@user: #SecRuleEngine DetectionOnly 
+SecRuleEngine On
+
+
+
+- Tambahkan Rule untuk Apache di Firewall
+
+
+user@WebServer: sudo ufw allow 'Apache'
+user@WebServer: sudo ufw status
+
+
+
+- Install Mysql
+
+user@WebServer: sudo apt install mysql-server
+user@WebServer: sudo mysqk_secure_installation
+
+
 ## Step Pengerjaan #
 1.** Install Apache2 **
 sudo apt install apache2
 
 2.** Mod Security **
 sudo apt install libapache2-mod-security2
-sudo a2enmod security2
+sudo apt install libapache2-mod-security2
 sudo nano /etc/modsecurity/modsecurity.conf
 #SecRuleEngine DetectionOnly 
 SecRuleEngine On
